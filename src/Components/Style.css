@@ -1,0 +1,53 @@
+.drawer::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+/* td,
+th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+} */
+.ant-btn-primary {
+  background-color: lightgray !important;
+}
+.ant-btn-primary:hover {
+  background-color: #1b98f5 !important;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+select {
+  /* This will remove the default arrow icon */
+  /* -webkit-appearance: none; */
+  /* -moz-appearance: none; */
+  /* appearance: none; */
+  /* Add your own styling, like background and border */
+  /* background-color: #f2f2f2; */
+  /* border: 1px solid #ccc; */
+  /* padding: 5px 10px; */
+}
+
+/* Add custom styling for the pseudo-element that mimics the dropdown arrow */
+select::-ms-expand {
+  display: none; /* Hide arrow on IE/Edge */
+}
+table td {
+  max-width: 150px; /* Adjust the value as needed */
+  word-wrap: break-word;
+  font-size: 12px; /* Allow word wrapping within cells */
+}
+
+.glassmorph {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.ant-select-selector{
+  width: 250px !important;
+  font-size: 20px;
+}
+

@@ -1,0 +1,9 @@
+OPR Problem:
+->customer name:
+  1)admin needs to add client name, from client name necessary details will be fills up in form.
+  2)auto-complete
+->table:
+  1)Slido order no = string
+  2)product  = called using API
+  3)Door pattern = same
+  4)
